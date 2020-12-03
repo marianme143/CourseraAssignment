@@ -91,15 +91,20 @@ tr{
 	background-color: white;
 }
 
-.tdLeft, .tdLeft1{
-	width: 40%;
+.tdLeft{
+	width: 50%;
+	text-align: right;
+}
+
+.tdLeft1{
+	width: 10%;
 	text-align: right;
 }
 
 
 
 .tdRight, .tdRight1{
-	width: 40%;
+	//width: 40%;
 	text-align: left;
 }
 
