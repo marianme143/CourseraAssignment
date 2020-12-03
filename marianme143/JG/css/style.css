@@ -75,7 +75,7 @@ tr{
 
 
 .col2Tbl{
-	width: 100vw;
+	width: 100%;
 	background-color: white;
 	height:30vh;
 }
@@ -87,7 +87,7 @@ tr{
 }
 
 .col21Tbl, .col22Tbl{
-	width: 100vw;
+	width: 100%;
 	background-color: white;
 }
 
