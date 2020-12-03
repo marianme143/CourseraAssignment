@@ -92,14 +92,14 @@ tr{
 }
 
 .tdLeft, .tdLeft1{
-	width: 50%;
+	width: 40%;
 	text-align: right;
 }
 
 
 
 .tdRight, .tdRight1{
-	width: 50%;
+	width: 40%;
 	text-align: left;
 }
 
