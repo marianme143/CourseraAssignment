@@ -18,28 +18,11 @@ div{
 #container{
 	margin: 0 5% 0 5%;
 	height:100vh;
-	
+	background-color:white;
 	width: 90%;
 }
 
-#bottom{
-	height:70vh;
-	width:100%;
-	//background-color:white;
-	//position: absolute;
-	//top: 50%;
-}
-
-#top{
-	height:30vh;
-	width:100%;
-	background-color:#white;
-	//position: absolute;
-	//top: 50%;
-}
-
 .footer{
-	//clear:both;
 	background-color:#1e2832;
 	width:100%; 
 	height:5%;
@@ -66,7 +49,7 @@ img{
 .col2Tbl tr td{
 	background-color: white;
 	text-align: center;
-	
+	border:none;
 }
 
 tr{
@@ -78,12 +61,14 @@ tr{
 	width: 100%;
 	background-color: white;
 	height:30vh;
+	border:none;
 }
 
 .col21Tbl tr td{
 	background-color: white;
 	text-align: left;
 	padding: .5vh;
+	border:none;
 }
 
 .col21Tbl, .col22Tbl{
@@ -110,6 +95,7 @@ tr{
 
 .col21Tbltr{
 	vertical-align: middle;
+	
 }
 
 .col2Tbl .td2Left{
@@ -143,6 +129,11 @@ tr{
 	color: white;
 	text-decoration: none;
 }
+
+table{
+	border: 1px solid white;border-collapse:collapse;
+}
+
 
 h1{
 	font-size: 20px;
