@@ -102,12 +102,18 @@ tr{
 	width: 20%;
 	text-align: left;
 	padding: 1vh;
+	vertical-align: middle;
 }
 
 .col22Tbl .td2Right{
-	//width: 80%;
 	text-align: left;
 	padding: 1vh;
+}
+
+.col22Tbl .td2Righty1{
+	text-align: left;
+	padding: 1vh 1vh 3vh 1vh;
+	
 }
 
 .col2Tbl .tr2{
@@ -131,7 +137,8 @@ tr{
 }
 
 table{
-	border: 1px solid white;border-collapse:collapse;
+	border: 1px solid white;
+	border-collapse:collapse;
 }
 
 
