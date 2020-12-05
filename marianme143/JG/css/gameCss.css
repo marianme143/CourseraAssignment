@@ -3,40 +3,31 @@
 }
 
 body {
-	font-family: "Times New Roman", Times, serif;
+	font-family: Lucida Console, Consolas, monospace;
 	margin: 0;
 	 background-color:#007c77;
 }
 
-/* Style the header */
+
 .header {
 	padding: 80px;
 	text-align: center;
 	color: white;
+	background: url(../img/header.png) no-repeat center;
+    background-size: contain;
 }
 
-/* Increase the font size of the h1 element */
+
 .header h1 {
 	font-size: 40px;
 	vertical-align:bottom;
 }
 
-/* Style the top navigation bar */
+
 .navbar {
 	overflow: hidden;
 	background-color: #333;
 }
-
-/* Style the navigation bar links 
-.navbar a {
-	float: left;
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 14px 20px;
-	text-decoration: none;
-}
-*/
 
 .navbar {
 	overflow: hidden;
@@ -85,9 +76,7 @@ ul ul ul {
 	top: 0;
 	left: 100%;
 }
-/*************
- * EXTRA CSS
- *************/
+
 a{
   color:#5fbcb2;
   text-decoration: none;
@@ -101,34 +90,41 @@ a{
 a:hover {
   border-bottom: 1px dashed #FFF;
 }
+.divTable{
+	max-width: 78vw;	
+}
 
+.divTable .td-stat-right{
+	word-break:break-word;
+}
+.divTable1{
+	width: 78vw;
+	
+}
 
-/* Right-aligned link */
+.divTable1 .td-stat-right{
+	word-break:break-word;
+}
 .navbar a.right {
 	float: right;
 }
 
-/* Change color on hover */
 .navbar a:hover {
 	background-color: #ddd;
 	color: black;
 }
 
-/* Column container */
 .row {  
 	display: flex;
 	flex-wrap: wrap;
 }
 
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
 .side {
 	flex: 30%;
 	background-color: #f1f1f1;
 	padding: 20px;
 }
 
-/* Main column */
 .main {   
 	flex: 70%;
 	background-color: #5fbcb2;
@@ -136,12 +132,6 @@ a:hover {
 	padding: 20px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-	background-color: #aaa;
-	width: 100%;
-	padding: 20px;
-}
 
 .profPic {
 	background-color: transparent;
@@ -160,7 +150,7 @@ a:hover {
 	padding: 10px;
 	text-align:center;
 }
-/* Footer */
+
 .footer {
 	background-color:#1e2832;
 	 padding: 20px;
@@ -177,14 +167,12 @@ p{
 	display:block;
 }
 
-/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
 	.row {   
 		flex-direction: column;
 	}
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
 	.navbar a {
 		float: none;
