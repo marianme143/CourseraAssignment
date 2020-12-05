@@ -45,26 +45,14 @@ a{
 a:hover {
   border-bottom: 1px dashed #FFF;
 }
-.divTable{
-	max-width: 78vw;	
-}
 
-.divTable .td-stat-right{
-	word-break:break-word;
-}
-.divTable1{
-	width: 78vw;
-	
-}
-.divTable1 .td-stat-right{
-	word-break:break-word;
-}
 .row {  
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .side {
+	
 	flex: 30%;
 	background-color: #f1f1f1;
 	padding: 20px;
@@ -109,6 +97,20 @@ a:hover {
 @media screen and (max-width: 700px) {
 	.row {   
 		flex-direction: column;
+	}
+	.divTable{
+		max-width: 78vw;	
+	}
+
+	.divTable .td-stat-right{
+		word-break:break-word;
+	}
+	.divTable1{
+		width: 78vw;
+		
+	}
+	.divTable1 .td-stat-right{
+		word-break:break-word;
 	}
 }
 
