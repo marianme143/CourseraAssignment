@@ -46,17 +46,19 @@ a:hover {
   border-bottom: 1px dashed #FFF;
 }
 .divTable{
-	max-width: 90vw;	
+	max-width: 80vw;	
 }
 
 .divTable .td-stat-right{
 	word-break:break-word;
 }
 .divTable1{
-	width: 90vw;
+	max-width: 80vw;
 	
 }
-
+.divTable1 .td-stat-right{
+	word-break:break-word;
+}
 .row {  
 	display: flex;
 	flex-wrap: wrap;
