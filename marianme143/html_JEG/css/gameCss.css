@@ -46,14 +46,14 @@ a:hover {
   border-bottom: 1px dashed #FFF;
 }
 .divTable{
-	max-width: 100vw;	
+	max-width: 90vw;	
 }
 
 .divTable .td-stat-right{
 	word-break:break-word;
 }
 .divTable1{
-	width: 100vw;
+	width: 90vw;
 	
 }
 
